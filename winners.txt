@@ -1,0 +1,13 @@
+Jimmy,0
+Caleb,1
+Caleb,1
+Caleb,0
+Jonathan,1
+Charlotte,13
+Caleb,12
+Nicholas,1
+Bob,1
+Caleb,15
+Johnson,13
+Jessica,5
+Daniel,14
