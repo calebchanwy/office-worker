@@ -23,7 +23,7 @@ WIDTH, HEIGHT = 1000,600
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Office Worker")
 
-arrowImg = pygame.image.load((os.path.join('Assets','arrow.png')))
+arrowImg = pygame.image.load((os.path.join('assets','arrow.png')))
 arrowImg = pygame.transform.scale(arrowImg,(50,50))
 
 def readfile(filename):
@@ -65,7 +65,7 @@ def creditsFunc():
 
 def leaderboard():
     myDict = {}
-    winners = readfile("winners.txt")
+    winners = readfile((os.path.join('src','winners.txt')))
     winners = winners.split("\n")
     winners.remove("")
     for winner in winners:

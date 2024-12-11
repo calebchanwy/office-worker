@@ -62,17 +62,17 @@ COFFEEDELAY = pygame.USEREVENT+3
 COFFEE = pygame.USEREVENT+4
 
 #image loading
-bossImg = pygame.image.load(os.path.join('Assets','boss.png'))
+bossImg = pygame.image.load(os.path.join('assets','boss.png'))
 bossImg = pygame.transform.scale(bossImg,(BOSSWIDTH,BOSSHEIGHT))
-deskImg = pygame.image.load(os.path.join('Assets','desk.png'))
+deskImg = pygame.image.load(os.path.join('assets','desk.png'))
 deskImg = pygame.transform.scale(deskImg,(DESKWIDTH,DESKHEIGHT))
-briefcaseImg = pygame.image.load(os.path.join('Assets',"briefcase.png"))
+briefcaseImg = pygame.image.load(os.path.join('assets',"briefcase.png"))
 briefcaseImg = pygame.transform.scale(briefcaseImg,(BRIEFCASEWIDTH,BRIEFCASEHEIGHT))
-workerImage = pygame.image.load(os.path.join('Assets','worker.png'))
+workerImage = pygame.image.load(os.path.join('assets','worker.png'))
 workerImage = pygame.transform.scale(workerImage,(CHARACTERWIDTH,CHARACTERHEIGHT))
-coffeeStationimg = pygame.image.load(os.path.join('Assets','coffeeStation.png'))
+coffeeStationimg = pygame.image.load(os.path.join('assets','coffeeStation.png'))
 coffeeStationimg = pygame.transform.scale(coffeeStationimg,(COFFEESTATIONWIDTH,COFFEESTATIONHEIGHT))
-coffeeImg = pygame.image.load((os.path.join('Assets','coffee.png')))
+coffeeImg = pygame.image.load((os.path.join('assets','coffee.png')))
 coffeeImg = pygame.transform.scale(coffeeImg,(COFFEEWIDTH,COFFEEHEIGHT))
 
 class InputBox:
